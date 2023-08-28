@@ -21,6 +21,7 @@ public class Controller extends HttpServlet {
     Usuarios L=new Usuarios();
     UsuariosDAL dao=new UsuariosDAL();
     int id;
+    
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
