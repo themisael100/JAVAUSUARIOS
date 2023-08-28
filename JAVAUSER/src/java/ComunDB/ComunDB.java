@@ -15,7 +15,7 @@ public class ComunDB {
     public ComunDB(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/usuarios","root","");            
+            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/empleados","root","");            
         } catch (Exception e) {
             System.err.println("Error"+e);
         }

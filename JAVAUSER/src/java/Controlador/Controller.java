@@ -1,5 +1,5 @@
 
-package Controller;
+package Controlador;
 
 import Modelo.Usuarios;
 import ModeloDAL.UsuariosDAL;

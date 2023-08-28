@@ -18,7 +18,7 @@
               Usuarios U=(Usuarios)dal.list(id);
           %>
             <h1>Modificar Empleado</h1>
-            <form action="Controlador">
+            <form action="Controller">
                 Nomre:<br>
                 <input class="form-control" type="text" name="txtNombre" value="<%= U.getNombre()%>"><br>
                 Apellido: <br>
